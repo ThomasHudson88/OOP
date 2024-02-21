@@ -1,4 +1,5 @@
 import CoinClass as c
+#CoinClass is the name of the file not the name of the class
 
 
 # The main function.
@@ -19,7 +20,8 @@ def main():
 
            
 
-
+#get method returns the attribute, not doing calculation
+#want a get method for each attribute, might want each attribute on it's own
        
 
 # Call the main function.
