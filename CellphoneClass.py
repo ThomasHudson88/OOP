@@ -11,11 +11,17 @@ class CellPhone:
     def set_manufact(self,m):
         self.__manufact = m
 
-    def get_manufact(self,m):
-        return self.__manufact
-
-    def set_model(self,m):
+    def set_model(self,n):
         self.__model = n
 
-    def get_model(self,m):
-        return self.__model
+    def set_price(self,p):
+        self.__retail_price = p
+
+    def get_manufact(self):
+         return self.__manufact
+    
+    def get_model(self):
+         return self.__model
+    
+    def get_price(self):
+        return self.__retail_price

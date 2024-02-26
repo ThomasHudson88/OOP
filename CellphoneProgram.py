@@ -1,12 +1,19 @@
-import CellphoneClass as cp
+import CellphoneClass as c
+import random
 
 def main():
-    m = input("Enter the manufacturer of the phone: ")
-    n = input("Enter the model of the phone: ")
-    p = float(input("Enter the price of the phone: "))
+    #Create to Instances for the class Iphone and Andriod
+    phone = c.CellPhone('Apple',"Iphone 15",1099) 
+   
+    #Now we set these up
+    phone.set_manufact('Apple')
+    phone.set_model('Iphone 15')
+    phone.set_price(1099)
 
-    phone = cp.Phone(m,n,p)
+    #Display the information nicely
+    print(f"Manufacturer is: {phone.get_manufact()}")
+    print(f"Model is: {phone.get_model()}")
+    print(f"Retail Price: ${phone.get_price()}")
 
-    print(phone)
 
 main()
