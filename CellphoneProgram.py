@@ -1,5 +1,4 @@
 import CellphoneClass as c
-import random
 
 def main():
     #Create to Instances for the class Iphone and Andriod
