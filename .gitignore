@@ -1,3 +1,4 @@
 .venv/
 Bank*
 Coin*
+__pycache__
